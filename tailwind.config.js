@@ -8,29 +8,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        /* Palette luxe - identité visuelle */
-        primary: {
-          DEFAULT: '#C9A96E',
-          gold: '#C9A96E',
-          'gold-light': '#D4BC8E',
-          'gold-dark': '#A68A5C',
-          dark: '#1A1A1A',
-          light: '#FAFAF8',
-        },
-        luxury: {
-          gold: '#C9A96E',
-          dark: '#1A1A1A',
-          cream: '#FAFAF8',
-          taupe: '#8B8680',
-          'taupe-dark': '#5D5A56',
-          stone: '#E8E4DC',
-          burgundy: '#6B2C3E',
-        },
+        primary: '#111111', // noir velours
+        secondary: '#B91C1C', // rouge rideau
+        accent: '#D4AF37', // or scène
+        background: '#0B0B0B',
+        text: '#F5F5F5',
+        surface: '#111111',
+        muted: '#BDBDBD',
+        border: 'rgba(245,245,245,0.14)',
       },
       fontFamily: {
-        heading: ['Cormorant Garamond', 'Playfair Display', 'Georgia', 'serif'],
-        body: ['Inter', 'Helvetica Neue', 'Arial', 'sans-serif'],
-        accent: ['Montserrat', 'Futura', 'sans-serif'],
+        heading: ['var(--font-heading)', 'Cinzel', 'Georgia', 'serif'],
+        body: ['var(--font-body)', 'Crimson Text', 'Georgia', 'serif'],
       },
       fontSize: {
         hero: ['clamp(3rem, 8vw, 6rem)', { lineHeight: '1.2' }],
@@ -39,12 +28,12 @@ module.exports = {
         'h3': ['clamp(1.75rem, 4vw, 2.5rem)', { lineHeight: '1.3' }],
       },
       letterSpacing: {
-        'luxury': '0.1em',
-        'luxury-wide': '0.15em',
+        theatre: '0.08em',
+        'theatre-wide': '0.12em',
       },
       boxShadow: {
-        'luxury': '0 4px 16px rgba(201, 169, 110, 0.2)',
-        'luxury-lg': '0 8px 32px rgba(201, 169, 110, 0.25)',
+        glow: '0 0 0 1px rgba(212,175,55,0.12), 0 16px 48px rgba(0,0,0,0.55)',
+        'glow-sm': '0 0 0 1px rgba(245,245,245,0.10), 0 10px 28px rgba(0,0,0,0.45)',
       },
       animation: {
         'fade-in-up': 'fadeInUp 0.8s ease-out forwards',

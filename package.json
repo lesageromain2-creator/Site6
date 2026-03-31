@@ -3,14 +3,14 @@
   "version": "2.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "npx prisma generate --schema=./prisma/schema.prisma && next build",
-    "postinstall": "npx prisma generate --schema=./prisma/schema.prisma",
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
     "start": "next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
     "@prisma/client": "^6.19.2",
     "@react-three/drei": "^9.117.3",
     "@react-three/fiber": "^9.0.0",
