@@ -1,0 +1,12 @@
+{
+  "title": "Ils nous accompagnent",
+  "items": [
+    { "name": "Ville de Lyon", "href": "#" },
+    { "name": "Région Auvergne-Rhône-Alpes", "href": "#" },
+    { "name": "Office du Tourisme", "href": "#" },
+    { "name": "Réseau Culture Lyon", "href": "#" },
+    { "name": "Partenaire Billetterie", "href": "#" },
+    { "name": "Mécénat local", "href": "#" }
+  ]
+}
+

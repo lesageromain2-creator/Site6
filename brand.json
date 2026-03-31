@@ -1,0 +1,28 @@
+{
+  "name": "Théâtre des Lumières",
+  "slug": "theatre-spectacle-lyon",
+  "sector": "Théâtre & Spectacle",
+  "location": "Lyon 2e — Presqu'île",
+  "design": {
+    "colors": {
+      "primary": "#111111",
+      "secondary": "#B91C1C",
+      "accent": "#D4AF37",
+      "background": "#0B0B0B",
+      "text": "#F5F5F5"
+    },
+    "fonts": {
+      "heading": "Cinzel",
+      "body": "Crimson Text"
+    }
+  },
+  "business": {
+    "address": "20 Rue Victor Hugo, 69002 Lyon",
+    "lat": 45.7537,
+    "lng": 4.8279,
+    "phone": "04 78 37 44 90",
+    "email": "billetterie@theatre-des-lumieres.fr",
+    "hours": "Mar-Sam 11h-19h"
+  }
+}
+

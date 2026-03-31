@@ -1,0 +1,13 @@
+{
+  "hero": "/images/hero.jpg",
+  "about": "/images/about.jpg",
+  "services": {
+    "service1": "/images/service-1.jpg",
+    "service2": "/images/service-2.jpg",
+    "service3": "/images/service-3.jpg"
+  },
+  "gallery": ["/images/gallery-1.jpg"],
+  "lyon": ["/images/lyon-1.jpg", "/images/lyon-2.jpg", "/images/lyon-3.jpg"],
+  "confiance": ["/images/confiance-1.jpg", "/images/confiance-2.jpg", "/images/confiance-3.jpg"]
+}
+
